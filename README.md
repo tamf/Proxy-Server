@@ -2,6 +2,8 @@
 
 Implementation of a web proxy server using the Unix socket API. Also includes a filter for blocking blacklisted websites. Based on HTTP/1.1 specification in RFC 2616 for GET proxy request. Server is multi-threaded to handle multiple clients simultaneously. Simple caching of content is also implemented. Client is responsible for handling chunked encoding.
 
+Collaborated with project partner Sisi Guo.
+
 # Starting the proxy server:
 
 ./proxyFilter port_no [blacklist_file]
